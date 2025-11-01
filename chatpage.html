@@ -131,7 +131,7 @@ const CLIENT_ID = 'Nc3xOruRneKBs5gE';
 const drone = new ScaleDrone(CLIENT_ID, {
   data: { // Will be sent out as clientData via events
     name:p,
-    color: getRandomColor(),
+    color: '#7CDE7C',
   },
 });
 while(name==null){
@@ -197,9 +197,7 @@ function getRandomName() {
  console.log("Got random name!");
 }
 
-function getRandomColor() {
-  return '#' + Math.floor(Math.random() * 0xFFFFFF).toString(16);
-}
+
 //------------- DOM STUFF
 
 const DOM = {
