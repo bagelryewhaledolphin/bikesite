@@ -156,15 +156,18 @@ drone.on('open', error => {
 
   room.on('members', m => {
     members = m;
+    updateMembersDOM();
   });
 
   room.on('member_join', member => {
     members.push(member);
+    updateMembersDOM();
   });
 
 room.on('member_leave', ({id}) => {
     const index = members.findIndex(member => member.id === id);
     members.splice(index, 1);
+    updateMembersDOM();
   });
 
 hist=[];
@@ -229,7 +232,13 @@ function createMemberElement(member) {
   return el;
 }
 
-
+function updateMembersDOM() {
+  DOM.membersCount.innerText = `${members.length} users in room:`;
+  DOM.membersList.innerHTML = '';
+  members.forEach(member =>
+    DOM.membersList.appendChild(createMemberElement(member))
+  );
+}
 
 function createMessageElement(text, member) {
   while(text==null){
@@ -263,4 +272,3 @@ else{
 
 }
 </script>
-
