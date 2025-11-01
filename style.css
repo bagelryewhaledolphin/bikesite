@@ -1,9 +1,17 @@
 
+title {
+  letter-spacing: 5px;
+  text-align: center;
+  font-family: ;
+  font-size: 40px;
+}
+
+
 h1 {
   letter-spacing: 3px;
   text-align: center;
   font-family: ;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 p {
