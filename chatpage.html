@@ -15,7 +15,7 @@
     width:10%;
     float: left;
     padding: 20px;
-    border: 3px solid rgb(255, 234, 138);
+    border: 3px solid rgb(0,0,0);
 }
 .float-child1 {
     width: 85%;
@@ -219,7 +219,7 @@ function sendMessage(member) {
   DOM.input.value = '';
   drone.publish({
     room: 'observable-room',
-    message:p+":"+value,
+    message:p+": "+value,
   });
 }
 
