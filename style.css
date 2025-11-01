@@ -61,3 +61,5 @@ header {
   display: table;
   clear: both;
 }
+
+*{  border-radius: 25px;}
