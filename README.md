@@ -1,4 +1,4 @@
-(https://bagelryewhaledolphin.github.io/bikesite/)[https://bagelryewhaledolphin.github.io/bikesite/]
+[https://bagelryewhaledolphin.github.io/bikesite/](https://bagelryewhaledolphin.github.io/bikesite/)
 <br>
 A chat page to find other bikers in Princeton!
 
