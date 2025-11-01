@@ -12,10 +12,18 @@ p {
 }
 
 body {
-  background-color: #23272a;
 
 }
+ .content{
+  background-color: #23272a;
 
+  margin: auto;
+  min-height: 700px;
+  padding: 50px;
+  width: 80%;
+  
+  
+}
 
 /* From W3Schools */
 
