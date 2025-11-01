@@ -1,1 +1,10 @@
 A chat page to find other bikers in princeton
+
+
+To make your own bikesite, change the text that says princeton to your town name and please leave credit.
+Also, so the chat page is seperate, please change the scaledrone id in the chat room code to a custom scaledrone channel.
+
+If you need help on this, please message one of us on discord
+
+@sword_slasher
+@zscorecreates
