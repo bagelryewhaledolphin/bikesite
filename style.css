@@ -15,8 +15,8 @@ body {
   background-image: linear-gradient(to right, #7deb34, #34ebb4);
   padding: 50px;
   width: 80%;
-  text-align: center;
-
+display: flex
+justify-content: center
 }
 
 
