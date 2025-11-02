@@ -224,7 +224,9 @@ function sendMessage(member) {
   }
 const d = new Date();
 let text = d.toTimeString();
-let text2 = text.substring(0,5);
+let text3 = d.toDateString();
+
+let text2 = text.substring(0,5)+" "+text3.substring(4,text3.length-5);
   DOM.input.value = '';
   drone.publish({
     room: 'observable-room',
